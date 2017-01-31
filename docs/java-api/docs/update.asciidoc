@@ -41,7 +41,7 @@ Note that you can't provide both `script` and `doc`.
 [[java-docs-update-api-script]]
 ==== Update by script
 
-The update API allows to update a document based on a script provided:
+The update API allows you to update a document based on a script provided:
 
 [source,java]
 --------------------------------------------------
@@ -54,7 +54,7 @@ client.update(updateRequest).get();
 [[java-docs-update-api-merge-docs]]
 ==== Update by merging documents
 
-The update API also support passing a partial document, which will be merged into the existing document (simple
+The update API also supports passing a partial document, which will be merged into the existing document (simple
 recursive merge, inner merging of objects, replacing core "keys/values" and arrays). For example:
 
 [source,java]
@@ -92,7 +92,7 @@ client.update(updateRequest).get();
 --------------------------------------------------
 <1> If the document does not exist, the one in `indexRequest` will be added
 
-If the document `index/type/1` already exists, we will have after this operation a document like:
+If the document `index/type/1` already exists, after this operation we will have a document like:
 
 [source,js]
 --------------------------------------------------
