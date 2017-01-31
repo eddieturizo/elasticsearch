@@ -21,7 +21,7 @@ client.admin().indices().prepareCreate("twitter")   <1>
 <2> It also adds a `tweet` mapping type.
 
 
-The PUT mapping API also allows to add a new type to an existing index:
+The PUT mapping API also allows you to add a new type to an existing index:
 
 [source,java]
 --------------------------------------------------
@@ -50,7 +50,7 @@ client.admin().indices().preparePutMapping("twitter")
                 "}")
         .get();
 --------------------------------------------------
-<1> Puts a mapping on existing index called `twitter`
+<1> Puts a mapping on an existing index called `twitter`
 <2> Adds a `user` mapping type.
 <3> This `user` has a predefined type
 <4> type can be also provided within the source
@@ -72,5 +72,5 @@ client.admin().indices().preparePutMapping("twitter")   <1>
 --------------------------------------------------
 <1> Puts a mapping on existing index called `twitter`
 <2> Updates the `user` mapping type.
-<3> This `user` has now a new field `user_name`
+<3> This `user` now has a new field `user_name`
 
