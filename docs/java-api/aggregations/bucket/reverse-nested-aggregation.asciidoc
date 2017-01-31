@@ -3,7 +3,7 @@
 
 Here is how you can use
 {ref}/search-aggregations-bucket-reverse-nested-aggregation.html[Reverse Nested Aggregation]
-with Java API.
+with the Java API.
 
 
 ===== Prepare aggregation request
