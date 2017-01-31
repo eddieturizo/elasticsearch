@@ -1,7 +1,7 @@
 [[java-docs-multi-get]]
 === Multi Get API
 
-The multi get API allows to get a list of documents based on their `index`, `type` and `id`:
+The multi get API allows you to get a list of documents based on their `index`, `type` and `id`:
 
 [source,java]
 --------------------------------------------------
@@ -19,7 +19,7 @@ for (MultiGetItemResponse itemResponse : multiGetItemResponses) { <4>
 }
 --------------------------------------------------
 <1> get by a single id
-<2> or by a list of ids for the same index / type
+<2> or by a list of id's for the same index / type
 <3> you can also get from another index
 <4> iterate over the result set
 <5> you can check if the document exists
