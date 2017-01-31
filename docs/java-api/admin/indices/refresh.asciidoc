@@ -1,7 +1,7 @@
 [[java-admin-indices-refresh]]
 ==== Refresh
 
-The refresh API allows to explicitly refresh one or more index:
+The refresh API allows you to explicitly refresh one or more index:
 
 [source,java]
 --------------------------------------------------
