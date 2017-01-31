@@ -3,7 +3,7 @@
 
 Here is how you can use
 {ref}/search-aggregations-bucket-range-aggregation.html[Range Aggregation]
-with Java API.
+with the Java API.
 
 
 ===== Prepare aggregation request
@@ -47,7 +47,7 @@ for (Range.Bucket entry : agg.getBuckets()) {
 }
 --------------------------------------------------
 
-This will basically produce for the first example:
+This will basically produce the first example:
 
 [source,text]
 --------------------------------------------------
