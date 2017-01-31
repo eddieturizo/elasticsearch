@@ -1,7 +1,7 @@
 [[java-admin-indices-get-settings]]
 ==== Get Settings
 
-The get settings API allows to retrieve settings of index/indices:
+The get settings API allows you to retrieve settings of index/indices:
 
 [source,java]
 --------------------------------------------------
