@@ -243,6 +243,14 @@ The following settings are supported:
     Activate path style access for http://docs.aws.amazon.com/AmazonS3/latest/dev/VirtualHosting.html[virtual hosting of buckets].
     The default behaviour is to detect which access style to use based on the configured endpoint (an IP will result
     in path-style access) and the bucket being accessed (some buckets are not valid DNS names).
+    
+`max_restore_bytes_per_sec`::
+
+    Throttles per node restore rate. Defaults to `40mb` per second.
+
+`max_snapshot_bytes_per_sec`:: 
+
+    Throttles per node snapshot rate. Defaults to `40mb` per second.
 
 The S3 repositories use the same credentials as the rest of the AWS services
 provided by this plugin (`discovery`). See <<repository-s3-usage>> for details.
